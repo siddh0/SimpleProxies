@@ -12,7 +12,7 @@ public class SimpleProxy {
             //Enter Proxies "HOST:PORT"
         };
 
-        String url = "https://dnsleaktest.com"; //Enter Target URL
+        String url = ""; //Enter Target URL
 
         for (int i = 0; i < proxies.length; i++) {
             try {
