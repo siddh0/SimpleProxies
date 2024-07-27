@@ -35,7 +35,7 @@ public class SimpleProxy {
                 connection.disconnect();
 
                 System.out.println("Proxy " + (i + 1) + " Response Code: " + connection.getResponseCode());
-                System.out.println(content.toString()); // Print the first 100 characters of the response
+                System.out.println(content.toString());
             } catch (Exception e) {
                 System.out.println("Proxy " + (i + 1) + " failed: " + e.getMessage());
             }
